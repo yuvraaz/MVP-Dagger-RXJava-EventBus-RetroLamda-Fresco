@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <FrameLayout style="@style/sample_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/baseline_jpeg"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            fresco:actualImageScaleType="focusCrop"
+            fresco:fadeDuration="300"
+            fresco:failureImage="@drawable/error"
+            fresco:failureImageScaleType="centerInside"
+            fresco:placeholderImage="@color/wait_color"
+            fresco:placeholderImageScaleType="fitCenter"
+            fresco:pressedStateOverlayImage="@color/transparent"
+            fresco:progressBarAutoRotateInterval="1000"
+            fresco:progressBarImage="@drawable/ic_action_accept"
+            fresco:progressBarImageScaleType="centerInside"
+            fresco:retryImage="@drawable/ic_action_accept"
+             fresco:retryImageScaleType="centerCrop"
+            fresco:roundAsCircle="false"
+            fresco:roundBottomLeft="false"
+            fresco:roundBottomRight="true"
+            fresco:roundTopLeft="true"
+            fresco:roundTopRight="false"
+            fresco:roundWithOverlayColor="@color/transparent"
+            fresco:roundedCornerRadius="1dp"
+            fresco:roundingBorderColor="#00000000"
+            fresco:roundingBorderWidth="2dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/post_body"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="$20"
+        android:textColor="@color/grey"
+        android:textSize="18dp"
+        android:layout_weight="33"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp"
+
+        app:cardPreventCornerOverlap="false">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+               android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/post_price"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                 android:layout_gravity="start"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="$20"
+                android:textColor="@color/green"
+                android:textSize="30dp"
+                android:layout_weight="33"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/post_buy"
+                android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_margin="10dp"
+                 android:layout_gravity="end"
+                 android:background="@color/yellow"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="Buy Now"
+                android:textColor="@color/green"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+ </LinearLayout>

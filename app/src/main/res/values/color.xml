@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#009688</color>
+    <color name="primaryDark">#00796B</color>
+    <color name="accent">#FF6E40</color>
+
+    <color name="failure">#ffff3333</color>
+    <color name="transparent">#00000000</color>
+    <color name="action_bar_transparent">#5c000000</color>
+
+    <color name="wait_color">#00a7a4a4</color>
+    <color name="blue">#1111e1</color>
+    <color name="red">#e11122</color>
+    <color name="corner_color">#ffe607</color>
+    <color name="border_color">#07ffc9</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //product detail
+
+    <color name="green">#068415</color>
+    <color name="grey">#535353</color>
+
+    <color name="black">#000000</color>
+    <color name="yellow">#fff705</color>
+
+
+
+</resources>
