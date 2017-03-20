@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".main.posts.PostsListActivity"
+    tools:context="com.boommba.mvpexample.app.main.posts.PostsListActivity"
     >
 
     <android.support.v7.widget.RecyclerView

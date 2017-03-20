@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.antonioleiva.mvpexample.app.main.MainActivity">
+    tools:context="com.antonioleiva.mvpexample.app.com.boommba.mvpexample.app.main.MainActivity">
 
     <ListView
         android:id="@+id/list"

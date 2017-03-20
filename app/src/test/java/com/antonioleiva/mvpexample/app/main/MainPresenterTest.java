@@ -1,7 +1,8 @@
 package com.antonioleiva.mvpexample.app.main;
 
-import com.antonioleiva.mvpexample.app.main.interfaces.FindItemsInteractor;
-import com.antonioleiva.mvpexample.app.main.interfaces.MainView;
+import com.boommba.mvpexample.app.main.MainPresenterImpl;
+import com.boommba.mvpexample.app.main.interfaces.FindItemsInteractor;
+import com.boommba.mvpexample.app.main.interfaces.MainView;
 
 import org.junit.Before;
 import org.junit.Test;

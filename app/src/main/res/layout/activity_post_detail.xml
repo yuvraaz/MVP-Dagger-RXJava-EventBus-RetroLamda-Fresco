@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.antonioleiva.mvpexample.app.main.posts.PostDetailActivity">
+    tools:context="com.antonioleiva.mvpexample.app.com.boommba.mvpexample.app.main.posts.PostDetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
