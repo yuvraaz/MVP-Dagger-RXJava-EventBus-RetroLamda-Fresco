@@ -45,7 +45,9 @@ public class PostsListAdapter extends RecyclerView.Adapter<PostsListAdapter.View
         viewHolder.postPrice.setText("Rs."+posts.get(position).getPrice());
 
 
-        viewHolder.image.setImageURI(Uri.parse("http://192.168.1.2/fashion/images/products/"+posts.get(position).getPhoto()));
+                viewHolder.image.setImageURI(Uri.parse("https://placehold.it/350x150"));
+
+//        viewHolder.image.setImageURI(Uri.parse("http://192.168.1.2/fashion/images/products/"+posts.get(position).getPhoto()));
 //        viewHolder.image.setImageURI(Uri.parse("http://192.168.89.35/fashion/images/products/"+posts.get(position).getPhoto()));
 
     }
